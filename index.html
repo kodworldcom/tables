@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Full Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Denny</td>
+          <td>Vargas</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Denny</td>
+          <td>Vargas</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Denny</td>
+          <td>Vargas</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Denny</td>
+          <td>Vargas</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <th rowspan="4">Phone Number</th>
+          <td>382193189123</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>3248u32985843</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>38492348392</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>834859438</td>
+          <td>23</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <th colspan="2">Sum of Ages</th>
+        <td>200</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
